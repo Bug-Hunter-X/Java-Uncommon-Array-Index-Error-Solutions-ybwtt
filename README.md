@@ -1,0 +1,3 @@
+# Uncommon Array Index Bug in Java
+
+This repository demonstrates a subtle bug related to array indexing within a loop in Java.  The code calculates a running sum of an array's elements and includes a conditional break statement. However, under certain circumstances, this break statement might not prevent an `IndexOutOfBoundsException` if not handled properly.  The solution focuses on accurately managing the loop condition and the break statement to avoid this rare error condition.
